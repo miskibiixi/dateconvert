@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- <style>
+        marquee {
+            margin-top: 20px;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style> -->
+
+    <style>
+       
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            height: -770px;
+            
+     }
+        .form {
+            margin-top: 5%;
+            padding: 20px;
+            
+            box-shadow: 0 25px 50px -5px lightpink;
+            border-radius: 10px;
+            height: 514px;
+            background-color: lightgrey;
+            background: transparent 0.1;
+            color: black;
+        }
+        label {
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        .form input, span {
+            padding: 10px;
+            border-radius: 3px;
+            border: none;
+            border: 1px solid #2a2a2a;
+            outline: none;
+            margin: 1px;
+            font-size: 30px;
+             margin-left: 20px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             hover
+             
+           
+        }
+      #typing {
+          width: 20%;
+      }
+        button {
+            padding: 10px 16px;
+            background-color: transparent;
+            border: none;
+            border: 1px solid #2a2a2a;
+            border-radius: 10px;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            transition: all 500ms ease;
+        }
+        #btn:hover {
+            background-color: cyan;
+            border: transparent;
+            
+            
+        }
+        .button {
+            text-align: center;
+        }
+        
+        #zz:hover {
+            background-color: rgb(235, 74, 87);
+            border: transparent;
+            
+            
+        }
+        body{
+background: url('./bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body ">
+
+    <h1 style="text-align: center;">LOGIN</h1>
+    
+    <div class="container">
+        <form class="form">
+            <label for="Username" > <br>
+           <center><input type="text" placeholder="Username" id="username" id="zz"></label> <br></center> 
+            <label for="password" > <br>
+           <center><input type="password"id="password" placeholder="Password"></label> <br> <br></center> 
+             <span></span>
+            <input type="number" id="typing" placeholder="captcha">
+             <br><br>
+             <div class="button"><br>
+            <button type="submit" id="btn">Submit</button></div>
+        </form>
+    </div>
+    <!-- <marquee id="marquee"></marquee> -->
+
+    <script src="main.js"></script>
+</body>
+</html>
